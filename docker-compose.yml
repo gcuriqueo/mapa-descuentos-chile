@@ -1,0 +1,18 @@
+version: '3'
+services:
+  flask-app:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    image: api-maps
+    ports:
+      - "8100:8100"
+  vue-app:
+    build: 
+      context: ./front-map
+      dockerfile: Dockerfile
+    image: web-maps
+    ports:
+      - "8080:8080"
+    depends_on:
+      - flask-app
