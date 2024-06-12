@@ -32,3 +32,5 @@ docker-compose up
 ```
 
 Una vez iniciado los servicios, podrás acceder a la aplicación Vue.js en localhost:8080 y a la API Flask en localhost:8100.
+
+![map_v1](https://github.com/gcuriqueo/mapa-descuentos-chile/assets/33637622/4e3ef81e-a2a2-4acf-be6e-a576a469fc66)
