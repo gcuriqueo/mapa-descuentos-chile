@@ -1,0 +1,902 @@
+[
+  {
+    "nombre": "Piso Uno",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los lunes",
+    "direcciones": [
+      {
+        "direccion": "Sta. Magdalena 116, Providencia",
+        "coordenadas": {
+          "latitud": -33.4203337,
+          "longitud": -70.6100271
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Oporto",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los lunes",
+    "direcciones": [
+      {
+        "direccion": "Isidora Goyenechea 3477, Las condes",
+        "coordenadas": {
+          "latitud": -33.4146073,
+          "longitud": -70.59423194570809
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Demencia",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los lunes",
+    "direcciones": [
+      {
+        "direccion": "Av. Vitacura 3520, Vitacura",
+        "coordenadas": {
+          "latitud": -33.38356076853759,
+          "longitud": -70.55054426174713
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Embarcadero 41",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los martes",
+    "direcciones": [],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Jardin Mallinkrodt",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los martes",
+    "direcciones": [
+      {
+        "direccion": "Camino los Trapenses 3515, Lo Barnechea",
+        "coordenadas": {
+          "latitud": -33.34344485,
+          "longitud": -70.54448258112268
+        }
+      },
+      {
+        "direccion": " Av. Vitacura 6780, Vitacura",
+        "coordenadas": {
+          "latitud": -33.38817025,
+          "longitud": -70.56778363203105
+        }
+      },
+      {
+        "direccion": " Mallinkrodt 170, Providencia",
+        "coordenadas": {
+          "latitud": -33.4319949,
+          "longitud": -70.6337531
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "La Vinoteca",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los mi\u00e9rcoles",
+    "direcciones": [
+      {
+        "direccion": "Restaurante Zoco",
+        "coordenadas": {
+          "latitud": 40.4129943,
+          "longitud": -3.7134259
+        }
+      },
+      {
+        "direccion": " Restaurante Nueva Costanera",
+        "coordenadas": {
+          "latitud": -36.547342,
+          "longitud": -72.938245
+        }
+      },
+      {
+        "direccion": " Restaurante Manuel Montt",
+        "coordenadas": {
+          "latitud": -33.429869749999995,
+          "longitud": -70.61931829298234
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "DO Sushi",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los mi\u00e9rcoles",
+    "direcciones": [
+      {
+        "direccion": "Suecia 0155, local 102, Providencia",
+        "coordenadas": {
+          "latitud": -33.4193028,
+          "longitud": -70.608817
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Pasta Basta",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los mi\u00e9rcoles",
+    "direcciones": [
+      {
+        "direccion": "Isidora Goyenechea 2850, Las Condes",
+        "coordenadas": {
+          "latitud": -33.41434370464074,
+          "longitud": -70.59452486157649
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Ica Restaurante",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los jueves",
+    "direcciones": [
+      {
+        "direccion": "Isidora Goyenechea 2939",
+        "coordenadas": {
+          "latitud": -33.4143621,
+          "longitud": -70.6003368
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Kechua ",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los jueves",
+    "direcciones": [
+      {
+        "direccion": " Alcaldesa Balbina Vera 3561, \u00d1u\u00f1oa",
+        "coordenadas": {
+          "latitud": -33.45377552108847,
+          "longitud": -70.59362599641925
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Lolita Jones",
+    "descuento": "Dos margaritas de cortes\u00eda",
+    "dia": "Todos los viernes",
+    "direcciones": [
+      {
+        "direccion": "Alonso de C\u00f3rdova 4355 - Vitacura",
+        "coordenadas": {
+          "latitud": -33.404145099999994,
+          "longitud": -70.58769055996731
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Bar Enigma",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los viernes",
+    "direcciones": [
+      {
+        "direccion": "Av. Larra\u00edn 5941, La Reina",
+        "coordenadas": {
+          "latitud": -33.453016493951715,
+          "longitud": -70.56610711650055
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Cascade",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los viernes",
+    "direcciones": [
+      {
+        "direccion": "Av. Escriv\u00e1 de Balaguer 6400, Vitacura.",
+        "coordenadas": {
+          "latitud": -33.382529,
+          "longitud": -70.5800871
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Caoba Bar",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los s\u00e1bados",
+    "direcciones": [
+      {
+        "direccion": "Alonso de C\u00f3rdova 4156",
+        "coordenadas": {
+          "latitud": -33.40267385,
+          "longitud": -70.59017362072734
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "La Dicha",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los s\u00e1bados",
+    "direcciones": [
+      {
+        "direccion": "Alonso de C\u00f3rdova 4355",
+        "coordenadas": {
+          "latitud": -33.404145099999994,
+          "longitud": -70.58769055996731
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Karai",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los s\u00e1bados",
+    "direcciones": [],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Catae",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los domingos",
+    "direcciones": [],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Ambros\u00eda ",
+    "descuento": "50% Dcto.",
+    "dia": "Todos los domingos",
+    "direcciones": [
+      {
+        "direccion": "Pamplona 78, Vitacura",
+        "coordenadas": {
+          "latitud": -33.378342,
+          "longitud": -70.5296528
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Carmine",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los lunes",
+    "direcciones": [
+      {
+        "direccion": "Av Nueva Costanera 3900 - Casa Costanera",
+        "coordenadas": {
+          "latitud": -33.398583,
+          "longitud": -70.598165
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Mit Burger",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los martes",
+    "direcciones": [],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "YMA",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los mi\u00e9rcoles",
+    "direcciones": [],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Cosenza",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los mi\u00e9rcoles",
+    "direcciones": [
+      {
+        "direccion": "Av Nueva Costanera 3900 - Casa Costanera",
+        "coordenadas": {
+          "latitud": -33.398583,
+          "longitud": -70.598165
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "De Pura Madre",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los jueves",
+    "direcciones": [
+      {
+        "direccion": "Av Nueva Costanera 3900 - Casa Costanera",
+        "coordenadas": {
+          "latitud": -33.398583,
+          "longitud": -70.598165
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Pomeriggio",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los viernes",
+    "direcciones": [
+      {
+        "direccion": "Av. Nueva Costanera 3900 - Casa Costanera",
+        "coordenadas": {
+          "latitud": -33.398583,
+          "longitud": -70.598165
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Pasaporte Chile",
+    "descuento": "20% Dcto.",
+    "dia": "Todos los d\u00edas",
+    "direcciones": [
+      {
+        "direccion": "Balmaceda 1940",
+        "coordenadas": {
+          "latitud": -29.9187123,
+          "longitud": -71.2538968
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "The Crust",
+    "descuento": "20% Dcto.",
+    "dia": "Todos los d\u00edas",
+    "direcciones": [
+      {
+        "direccion": "Av. Vitacura 5346",
+        "coordenadas": {
+          "latitud": -33.41713226065617,
+          "longitud": -70.60493128004285
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Shinsei Nikkei Cuisine",
+    "descuento": "20% Dcto.",
+    "dia": "Todos los d\u00edas",
+    "direcciones": [],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Sky Bar KY ",
+    "descuento": "20% Dcto.",
+    "dia": "Todos los d\u00edas",
+    "direcciones": [],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Catae Restaurante ",
+    "descuento": "20% Dcto.",
+    "dia": "Todos los d\u00edas",
+    "direcciones": [],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Taringa",
+    "descuento": "20% Dcto.",
+    "dia": "Todos los d\u00edas",
+    "direcciones": [
+      {
+        "direccion": "Av. Vitacura 5336",
+        "coordenadas": {
+          "latitud": -33.3961953,
+          "longitud": -70.5815199
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Campo Marzio Pinseria",
+    "descuento": "20% Dcto.",
+    "dia": "Mi\u00e9rcoles y s\u00e1bado",
+    "direcciones": [
+      {
+        "direccion": "Av. Los Leones 2475, Providencia",
+        "coordenadas": {
+          "latitud": -33.441749599999994,
+          "longitud": -70.5998173028828
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "La Pizzer\u00eda",
+    "descuento": "20% Dcto.",
+    "dia": "Todos los d\u00edas",
+    "direcciones": [
+      {
+        "direccion": "Condell 1026, Providencia",
+        "coordenadas": {
+          "latitud": -33.4442574,
+          "longitud": -70.62642395383321
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Kechua ",
+    "descuento": "20% Dcto.",
+    "dia": "Todos los d\u00edas",
+    "direcciones": [
+      {
+        "direccion": "Alcaldesa Balbina Vera 3561, Local 102, \u00d1u\u00f1oa",
+        "coordenadas": {
+          "latitud": -33.45377552108847,
+          "longitud": -70.59362599641925
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Sanbar",
+    "descuento": "20% Dcto.",
+    "dia": "Todos los d\u00edas",
+    "direcciones": [],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Favara",
+    "descuento": "20% Dcto.",
+    "dia": "Todos los d\u00edas",
+    "direcciones": [],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Vinolia",
+    "descuento": "20% Dcto.",
+    "dia": "De lunes a viernes",
+    "direcciones": [],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Alto Croacia",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los jueves",
+    "direcciones": [
+      {
+        "direccion": "Av. Croacia 0652, Antofagasta",
+        "coordenadas": {
+          "latitud": -23.676564949766064,
+          "longitud": -70.41247770085634
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Ambbar Restobar",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los viernes",
+    "direcciones": [
+      {
+        "direccion": "Av. Croacia 642, Antofagasta",
+        "coordenadas": {
+          "latitud": -23.6777655,
+          "longitud": -70.4126674
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Ambros\u00eda Pop Up",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los martes",
+    "direcciones": [
+      {
+        "direccion": "Paseo Gervasoni N\u00ba1 Cerro Concepci\u00f3n, Valparaiso",
+        "coordenadas": {
+          "latitud": -33.0411268,
+          "longitud": -71.6268441
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Reses Bar & Brasas",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los lunes",
+    "direcciones": [
+      {
+        "direccion": "5 Norte 511, Vi\u00f1a Del Mar",
+        "coordenadas": {
+          "latitud": -33.018424350000004,
+          "longitud": -71.55065425000001
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Nikei 419",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los jueves",
+    "direcciones": [
+      {
+        "direccion": "Av. San Mart\u00edn 419, Vi\u00f1a Del Mar",
+        "coordenadas": {
+          "latitud": -33.0170616,
+          "longitud": -71.5581189
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Patagonico Cachagua",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los viernes",
+    "direcciones": [
+      {
+        "direccion": "Av Cachagua 324, Zapallar",
+        "coordenadas": {
+          "latitud": -32.577164478097444,
+          "longitud": -71.44742008485703
+        }
+      }
+    ],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "Margarita Bar",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los martes",
+    "direcciones": [],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "The \u00d1a\u00f1os Restaurante",
+    "descuento": "40% Dcto.",
+    "dia": "Todos los mi\u00e9rcoles",
+    "direcciones": [],
+    "banco": "Scotiabank"
+  },
+  {
+    "nombre": "La Tabla",
+    "telefono": "+56976266905",
+    "especialidad": "Lunes Gourmet",
+    "direcciones": [],
+    "web": "http://latablarestaurant.cl/",
+    "descuento": "40%",
+    "vigencia": "Desde 01-01-2025 hasta 31-03-2025",
+    "dia": "Lunes",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "El Mes\u00f3n De La Patagonia",
+    "telefono": "+56985278105",
+    "especialidad": "Martes Gourmet",
+    "direcciones": [
+      {
+        "direccion": "Avda. Lo Barnechea N\u00b012223 - Lo Barnechea",
+        "coordenadas": {
+          "latitud": -33.352802,
+          "longitud": -70.5185751
+        }
+      }
+    ],
+    "web": "",
+    "descuento": "40%",
+    "vigencia": "Desde 01-01-2025 hasta 31-03-2025",
+    "dia": "Martes",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "Puerto Trapense",
+    "telefono": "",
+    "especialidad": "Martes Gourmet",
+    "direcciones": [
+      {
+        "direccion": "Av. Alcalde Jose Delano N\u00b010533, Local 1040, Lo Barnechea",
+        "coordenadas": {
+          "latitud": -33.3574379,
+          "longitud": -70.539965
+        }
+      }
+    ],
+    "web": "https://www.puertotrapenses.cl/",
+    "descuento": "40%",
+    "vigencia": "Desde 01-01-2025 hasta 31-03-2025",
+    "dia": "Martes",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "SteakHouse",
+    "telefono": "",
+    "especialidad": "Martes Gourmet",
+    "direcciones": [
+      {
+        "direccion": "Grecia N\u00b0948, Antofagasta ",
+        "coordenadas": {
+          "latitud": -23.6652956,
+          "longitud": -70.4044053
+        }
+      }
+    ],
+    "web": "https://steakhousechile.com/",
+    "descuento": "40%",
+    "vigencia": "Desde 01-01-2025 hasta 31-03-2025",
+    "dia": "Martes",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "Fidelio",
+    "telefono": "",
+    "especialidad": "Martes Gourmet",
+    "direcciones": [
+      {
+        "direccion": "Re\u00f1aca Norte N\u00b025, Vi\u00f1a del Mar ",
+        "coordenadas": {
+          "latitud": -32.9475994,
+          "longitud": -71.54600768550192
+        }
+      }
+    ],
+    "web": "https://www.cafefidelio.cl/pedir",
+    "descuento": "40%",
+    "vigencia": "Desde 01-01-2025 hasta 31-03-2025",
+    "dia": "Martes",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "Don Teo Restaurant",
+    "telefono": "",
+    "especialidad": "Martes Gourmet",
+    "direcciones": [],
+    "web": "",
+    "descuento": "40%",
+    "vigencia": "Desde 01-01-2025 hasta 31-03-2025",
+    "dia": "Martes",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "Greta Restobar",
+    "telefono": "",
+    "especialidad": "Martes Gourmet",
+    "direcciones": [],
+    "web": "",
+    "descuento": "40%",
+    "vigencia": "Desde 01-01-2025 hasta 31-03-2025",
+    "dia": "Martes",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "Battir",
+    "telefono": "",
+    "especialidad": "Martes Gourmet",
+    "direcciones": [
+      {
+        "direccion": "Veteranos del 79 N\u00b0408, Concepci\u00f3n ",
+        "coordenadas": {
+          "latitud": -36.8325193,
+          "longitud": -73.0459741
+        }
+      }
+    ],
+    "web": "https://battir.cl/",
+    "descuento": "40%",
+    "vigencia": "Desde 01-01-2025 hasta 31-03-2025",
+    "dia": "Martes",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "Bife Sure\u00f1o",
+    "telefono": "",
+    "especialidad": "Martes Gourmet",
+    "direcciones": [
+      {
+        "direccion": "Lautaro N\u00b0200, Los \u00c1ngeles",
+        "coordenadas": {
+          "latitud": -37.4703584,
+          "longitud": -72.3482933
+        }
+      }
+    ],
+    "web": "",
+    "descuento": "40%",
+    "vigencia": "Desde 01-01-2025 hasta 31-03-2025",
+    "dia": "Martes",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "Carnivo",
+    "telefono": "",
+    "especialidad": "Martes Gourmet",
+    "direcciones": [
+      {
+        "direccion": "Los Pablo N\u00b00229",
+        "coordenadas": {
+          "latitud": -37.95618291495473,
+          "longitud": -57.77582195504132
+        }
+      }
+    ],
+    "web": "",
+    "descuento": "40%",
+    "vigencia": "Desde 07-01-2025 hasta 31-03-2025",
+    "dia": "Martes",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "Cambalache",
+    "telefono": "",
+    "especialidad": "Martes Gourmet",
+    "direcciones": [
+      {
+        "direccion": "Av. Vicente P\u00e9rez Rosales 1589, Puerto Varas",
+        "coordenadas": {
+          "latitud": -41.3285046,
+          "longitud": -72.9607713
+        }
+      }
+    ],
+    "web": "http://cambalachepuertovaras.cl/",
+    "descuento": "40%",
+    "vigencia": "Desde 07-01-2025 hasta 31-03-2025",
+    "dia": "Martes",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "Restaurant Parrilla El Galp\u00f3n",
+    "telefono": "",
+    "especialidad": "Martes Gourmet",
+    "direcciones": [
+      {
+        "direccion": "Lord Cochrane N\u00b0816, Osorno",
+        "coordenadas": {
+          "latitud": -40.5765247,
+          "longitud": -73.1327252
+        }
+      }
+    ],
+    "web": "",
+    "descuento": "40%",
+    "vigencia": "Desde 07-01-2025 hasta 31-03-2025",
+    "dia": "Martes",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "Rosita",
+    "telefono": "",
+    "especialidad": "Mi\u00e9rcoles Gourmet",
+    "direcciones": [],
+    "web": "https://www.restauranterosita.cl/",
+    "descuento": "40%",
+    "vigencia": "Desde 01-01-2025 hasta 31-03-2025",
+    "dia": "Mi\u00e9rcoles",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "Selvado Restaurant",
+    "telefono": "",
+    "especialidad": "Jueves Gourmet",
+    "direcciones": [
+      {
+        "direccion": "Antonia Lopez de Bello N\u00b00118, Providencia",
+        "coordenadas": {
+          "latitud": -33.4318411,
+          "longitud": -70.6345578
+        }
+      }
+    ],
+    "web": "https://www.selvado.cl/",
+    "descuento": "40%",
+    "vigencia": "Desde 01-01-2025 hasta 31-03-2025",
+    "dia": "Jueves",
+    "banco": "Itau"
+  },
+  {
+    "nombre": "Vi\u00f1a Ventisquero",
+    "telefono": "",
+    "especialidad": "Tarjeta Legend",
+    "direcciones": [],
+    "web": "https://tiendaventisquero.com/",
+    "descuento": "50%",
+    "vigencia": "Desde 01-02-2025 hasta 28-02-2025",
+    "dia": "Tarjeta",
+    "banco": "Itau-Legend"
+  },
+  {
+    "nombre": "Camposorno \u2013 Legend",
+    "telefono": "",
+    "especialidad": "Tarjeta Legend",
+    "direcciones": [],
+    "web": "https://pedidoswap.com/web/camposorno#!store",
+    "descuento": "40%",
+    "vigencia": "Desde 04-02-2025 hasta 25-02-2025",
+    "dia": "Tarjeta",
+    "banco": "Itau-Legend"
+  },
+  {
+    "nombre": "Vi\u00f1a Vik \u2013 Legend",
+    "telefono": "",
+    "especialidad": "Tarjeta Legend",
+    "direcciones": [],
+    "web": "https://tienda.vikwine.com/",
+    "descuento": "30%",
+    "vigencia": "Desde 01-02-2025 hasta 28-02-2025",
+    "dia": "Tarjeta",
+    "banco": "Itau-Legend"
+  },
+  {
+    "nombre": "Geomar \u2013 Legend",
+    "telefono": "",
+    "especialidad": "Tarjeta Legend",
+    "direcciones": [],
+    "web": "http://www.geomar.cl/",
+    "descuento": "40%",
+    "vigencia": "Desde 01-02-2025 hasta 28-02-2025",
+    "dia": "Tarjeta",
+    "banco": "Itau-Legend"
+  },
+  {
+    "nombre": "Corralosorno",
+    "telefono": "",
+    "especialidad": "Tarjeta Legend",
+    "direcciones": [
+      {
+        "direccion": "Av. Pr\u00edncipe de Gales N\u00b07371, La Reina",
+        "coordenadas": {
+          "latitud": -33.43935068571429,
+          "longitud": -70.55537745
+        }
+      }
+    ],
+    "web": "https://pedidoswap.com/web/frigosorno#!select",
+    "descuento": "30%",
+    "vigencia": "Desde 01-02-2025 hasta 28-02-2025",
+    "dia": "Tarjeta",
+    "banco": "Itau-Legend"
+  },
+  {
+    "nombre": "Varsovienne \u2013 Legend",
+    "telefono": "",
+    "especialidad": "Tarjeta Legend",
+    "direcciones": [
+      {
+        "direccion": "Online",
+        "coordenadas": {
+          "latitud": 43.59047185,
+          "longitud": 3.8595132132013186
+        }
+      }
+    ],
+    "web": "https://www.varsovienne.cl/",
+    "descuento": "40%",
+    "vigencia": "Desde 01-02-2025 hasta 28-02-2025",
+    "dia": "Tarjeta",
+    "banco": "Itau-Legend"
+  }
+]

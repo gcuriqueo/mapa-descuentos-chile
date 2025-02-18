@@ -8,9 +8,10 @@
                     :lat-lng="getLatLng(direccion)">
             <l-popup>
               <p>
+                <strong>Banco:</strong> {{ sitio.banco}}<br>
                 <strong>Nombre:</strong> {{ sitio.nombre }}<br>
-                <strong>Descuento:</strong> <strong style="color: red;">{{ sitio.telefono }}</strong><br>
-                <strong>Día:</strong> {{ sitio.especialidad }}<br>
+                <strong>Descuento:</strong> <strong style="color: red;">{{ sitio.descuento }}</strong><br>
+                <strong>Día:</strong> {{ sitio.dia }}<br>
                 <strong>Dirección:</strong> {{ direccion.direccion }}
               </p>
             </l-popup>
@@ -100,7 +101,7 @@
           });
         }
         try {
-          const response = await axios.get('http://localhost:8100/data/food/scotiabank/coordinates.json');
+          const response = await axios.get('http://localhost:8100/data/food/banks/coordinates.json');
           this.sitios = response.data;
         } catch (error) {
             console.error(error);

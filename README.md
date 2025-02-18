@@ -6,6 +6,11 @@ La app georeferencia restaurantes disponibles a partir de tu ubicación actual.
 
 Listado de bancos disponibles en el mapa:
 - Banco Scotiabank
+- Banco Itaú
+
+Este proyecto utiliza Beautiful Soup y Selenium para el WebScraping. Por motivos de privacidad, el código fuente de este workflow es privado. Los datos extraídos se almacenan en MongoDB, pero para este repositorio público se proporciona un archivo JSON con la información recolectada. A continuación se muestra el diagrama de la solución:
+
+![Arquitectura del Sistema](./docs/diagram.png)
 
 ## Estructura del Proyecto
 
@@ -13,8 +18,6 @@ El proyecto consta de dos partes principales ya preconstruidas:
 
 - `frontend`: Una aplicación Vue.js que muestra los descuentos en un mapa interactivo.
 - `backend`: Una API Flask que proporciona los datos de los descuentos.
-
-Además, se incluye un script de Python opcional que se utilizó para hacer el scraping de la web y generar el archivo JSON que el backend sirve al frontend. Este script no es necesario para ejecutar la aplicación, ya que los datos ya se incluyen en la imagen del backend en Docker.
 
 ## Cómo ejecutar el proyecto
 
