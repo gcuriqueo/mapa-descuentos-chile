@@ -2,6 +2,14 @@
 color: red;
 }<template>
   <div class="map-container">
+
+    <!-- Barra de fecha -->
+    <div class="fecha-bar">
+      <div class="fecha-exportacion">
+        {{ fechaExportacion ? formatearFecha(fechaExportacion) : '' }}
+      </div>
+    </div>
+
     <!-- Filtros -->
     <div class="filtros-container">
       <div class="filtro-grupo">
@@ -97,6 +105,7 @@ export default {
       bancoSeleccionado: '',
       diaSeleccionado: '',
       radioKm: 5,
+      fechaExportacion: null,
     };
   },
   computed: {
@@ -148,6 +157,11 @@ export default {
     // Método para actualizar el radio desde el slider
     actualizarRadio() {
       this.radio = this.radioKm * 1000;
+    },
+    formatearFecha(fechaStr) {
+      const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+      const fecha = new Date(fechaStr);
+      return `${meses[fecha.getMonth()]} ${fecha.getFullYear()}`;
     }
   },
   async created() {
@@ -162,7 +176,8 @@ export default {
     // Cargar datos
     try {
       const response = await axios.get('http://localhost:8100/data/food/banks/coordinates.json');
-      this.sitios = response.data;
+      this.sitios = response.data.datos;
+      this.fechaExportacion = response.data.fecha_extraccion;
     } catch (error) {
       console.error('Error al cargar los datos:', error);
     }
@@ -297,4 +312,18 @@ body {
   background: #4d83da;
   cursor: pointer;
 }
+
+.fecha-bar {
+  background-color: #3973ca;
+  color: white;
+  padding: 8px 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid #2a62bc;
+}
+
+.fecha-exportacion {
+  font-weight: bold;
+  font-size: 16px;
+}
+
 </style>
