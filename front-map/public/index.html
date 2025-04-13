@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval'; connect-src 'self' https://raw.githubusercontent.com http://localhost:8100 wss://localhost:* https://*.tile.openstreetmap.org; img-src 'self' data: https://raw.githubusercontent.com https://*.tile.openstreetmap.org; style-src 'self' 'unsafe-inline'; font-src 'self';">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>

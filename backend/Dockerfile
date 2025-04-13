@@ -1,7 +1,12 @@
-FROM python:3.7-alpine
+FROM python:3.9-alpine
+
 WORKDIR /app
-COPY ./app /app
+
 COPY requirements.txt .
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
 EXPOSE 8100
-CMD ["python", "/app/main.py"]
+
+CMD ["gunicorn", "--bind", "0.0.0.0:8100", "wsgi:app"]

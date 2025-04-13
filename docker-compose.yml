@@ -4,14 +4,16 @@ services:
     build: 
       context: ./backend
       dockerfile: Dockerfile
-    image: api-maps
+    image: api-maps:latest
     ports:
       - "8100:8100"
+    env_file:
+      - ./backend/.env
   vue-app:
     build: 
       context: ./front-map
       dockerfile: Dockerfile
-    image: web-maps
+    image: web-maps:latest
     ports:
       - "8080:8080"
     depends_on:

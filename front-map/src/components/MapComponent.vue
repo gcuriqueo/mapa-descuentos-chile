@@ -60,7 +60,7 @@ color: red;
           </l-marker>
         </div>
         <l-marker v-if="miUbicacion" :lat-lng="miUbicacion" :icon="iconoMiUbicacion"></l-marker>
-        <l-circle v-if="miUbicacion" :lat-lng="miUbicacion" :radius="radio" color="green" :key="miUbicacion"></l-circle>
+        <l-circle v-if="miUbicacion" :lat-lng="miUbicacion" :radius="radio" color="green" :key="'ubicacion-circle'"></l-circle>
       </l-map>
     </div>
   </div>
@@ -165,17 +165,33 @@ export default {
     }
   },
   async created() {
-    // Obtener ubicación del usuario
+// Obtener ubicación del usuario
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(position => {
-        this.miUbicacion = [position.coords.latitude, position.coords.longitude];
-        this.center = this.miUbicacion;
-      });
+      navigator.geolocation.getCurrentPosition(
+          position => {
+            this.miUbicacion = [position.coords.latitude, position.coords.longitude];
+            this.center = this.miUbicacion;
+            console.log("Ubicación obtenida:", this.miUbicacion);
+          },
+          error => {
+            console.error('Error de geolocalización:', error.code, error.message);
+            // Usar centro predeterminado como ubicación actual
+            this.miUbicacion = this.center;
+          },
+          {
+            enableHighAccuracy: true,
+            timeout: 15000,
+            maximumAge: 0
+          }
+      );
+    } else {
+      console.error('Geolocalización no soportada por este navegador');
     }
 
     // Cargar datos
     try {
-      const response = await axios.get('http://localhost:8100/data/food/banks/coordinates.json');
+      //const response = await axios.get('http://localhost:8100/data/food/banks/coordinates.json');
+      const response = await axios.get(`${process.env.VUE_APP_API_URL}/data/food/banks/coordinates.json`);
       this.sitios = response.data.datos;
       this.fechaExportacion = response.data.fecha_extraccion;
     } catch (error) {
